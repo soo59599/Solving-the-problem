@@ -11,13 +11,10 @@ class Solution {
         int count = 0;
 
         for (int i = 0; i < charArray.length; i++) {
-            if (Character.isWhitespace(charArray[i])) {
+            if (charArray[i] == ' ') {
                 sb.append(" ");
                 count = 0;
 
-            } else if(charArray[i] == '-'){
-                sb.append("-");
-                count = 0;
             }else {
                     if (count % 2 == 0) {
                         sb.append(String.valueOf(charArray[i]).toUpperCase());
