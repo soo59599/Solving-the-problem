@@ -26,19 +26,16 @@ class Solution {
             }
         }
 
-        for(int i = 2; i <= N; i++){
-            if(isPrime[i]){
                 for(int j = 0 ; j < nums.length -2; j++){
                     for(int k = j+1; k < nums.length -1;k++){
                         for(int l = k+1; l < nums.length;l++){
-                            if(i == (nums[j] + nums[k] + nums[l])){
+                            if(isPrime[(nums[j] + nums[k] + nums[l])]){
                                 answer += 1;
                             }
                         }
                     }
                 }
-            }
-        }
+
 
         return answer;
     }
