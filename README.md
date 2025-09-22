@@ -15,4 +15,8 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/soo59599/Solving-the-problem/tree/master/0001-two-sum) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/soo59599/Solving-the-problem/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
