@@ -7,6 +7,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0584-find-customer-referee](https://github.com/soo59599/Solving-the-problem/tree/master/0584-find-customer-referee) |
+| [0595-big-countries](https://github.com/soo59599/Solving-the-problem/tree/master/0595-big-countries) |
 ## Array
 |  |
 | ------- |
