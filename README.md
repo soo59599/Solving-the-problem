@@ -10,6 +10,7 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 | [0595-big-countries](https://github.com/soo59599/Solving-the-problem/tree/master/0595-big-countries) |
 | [1258-article-views-i](https://github.com/soo59599/Solving-the-problem/tree/master/1258-article-views-i) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/soo59599/Solving-the-problem/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
+| [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/soo59599/Solving-the-problem/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1827-invalid-tweets](https://github.com/soo59599/Solving-the-problem/tree/master/1827-invalid-tweets) |
 ## Array
 |  |
