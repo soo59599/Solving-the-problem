@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 
 public class Main {
 
-    public static Integer[] dp = new Integer[46];
+    public static int[] dp = new int[46];
 
     public static void main(String[] args) throws IOException {
 
@@ -23,20 +23,16 @@ public class Main {
     }
 
     public static int fibo(int n) {
-        dp[0] = 0;
-        dp[1] = 1;
         if (n == 0) {
             return 0;
         }
         if (n == 1) {
             return 1;
         }
-
-        for (int i = 2; i <= n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];
+        if (dp[n] != 0) {
+            return dp[n];
         }
-
-        return dp[n];
+        return dp[n] = fibo(n - 1) + fibo(n - 2);
     }
 }
 
