@@ -1,19 +1,15 @@
-
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 
 class Solution {
     public int[] solution(int[] numbers) {
-        HashSet<Integer> setAnswer = new HashSet<>();
-
-        for(int i=0;i<numbers.length-1;i++){
-            for(int j=i+1;j<numbers.length;j++){
-                setAnswer.add(numbers[j]+numbers[i]);
+        Set<Integer> set = new TreeSet<>();
+        for (int i = 0; i < numbers.length - 1; i++) {
+            for (int j = i + 1; j < numbers.length; j++) {
+                set.add(numbers[j] + numbers[i]);
             }
         }
-
-        int[] answer = setAnswer.stream().mapToInt(x->x).sorted().toArray();
-
+        int[] answer = set.stream().mapToInt(x -> x).toArray();
         return answer;
     }
 }
